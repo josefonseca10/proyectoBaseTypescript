@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "strict": true,
+    "preserveConstEnums": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": [
+      "es2018",
+      "dom",
+    ]
+  },
+  "include": ["src/**/*", ".eslintrc.js", "test/**/*.ts", "config/**/*.ts", "dist/**/*.ts", "db/**/*.ts", "utils/**/*.ts"]
+}
